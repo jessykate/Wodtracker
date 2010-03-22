@@ -1,9 +1,12 @@
 * WOD object
 * group wods by day
-
+* user profiles (at least-- weight, height, age)
+* use [[ ]] to bracket measurements to track? (what about when there
+  are multiple measurements in a day?)
+* when we have weight amounts, then can do a body weight/age
+  vs. lifting weight/time chart
 * make the chart interactive; click on a day brings up that day's
   workout. or something funky.
-
 * editable wods for owner/coach
 * add field saying who added the wod (athlete themselves or the coach)
 * add field for last edit
@@ -22,6 +25,7 @@
 * make a word list of exercises, and when any of those string show up,
   make it a link to the search results for that term across all workouts
 * rss feeds for each user - update when they add a workout
+* utils section with a full screen timer/tabata time
 
 
 * arbitrary tags
