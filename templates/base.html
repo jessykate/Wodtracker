@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>{% block title %}WodTracker{% end %}</title>
+    <link rel="stylesheet" href="/static/style.css" type="text/css" />
+  </head>
+  <body>
+    {% block navigation %}
+    <div id="site_nav">
+      <div class="nav_item">
+	<a href="/">Add another workout</a>
+      </div>
+      <div class="nav_item">
+	<a href="/search">Search workouts</a>
+      </div>
+    </div>
+    {% end %}
+    {% block content %}
+    {% end %}
+  </body>
+</html>

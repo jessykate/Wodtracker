@@ -1,0 +1,51 @@
+
+
+#site_nav {
+    height: 100px;
+    background: #333333;
+    color: white;
+}
+
+.nav_item {
+    margin-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    align: bottom;
+}
+
+a {
+    text-decoration: none;
+}
+
+#site_nav a {
+    color: #cccc99;
+}
+
+#site_nav a:hover {
+    color: #cccccc;
+}
+
+
+#workouts {
+    width: 410px;
+}
+
+.workout {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    float: left;
+}
+
+#frequency_graph {
+    float: right;
+    text-align: center;
+    margin-right: 25%;
+}
+
+.wod_body {
+    background: #ffffff url("/static/backgrounds/workout_gradient.png") repeat-x;
+    min-height: 125px;
+}

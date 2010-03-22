@@ -1,0 +1,22 @@
+{% extends base.html %}
+
+{% block content %}
+
+
+  <form action="submit" method="get">
+    Workout<br>
+    <textarea name="wod" id="wod" row="5" cols="50">
+    </textarea><br>
+   <input type="checkbox" name="equipment" value="False" id="equipment">
+   No Equipment Required?<br><br>
+
+    Name: <input type="text" name="name" id="name" ><br>
+    Score: <input type="text" name="score" id="score" ><br>
+    Additional Comments<br
+    <textarea name="comments" id="comments" row="5" cols="50">
+    </textarea><br>
+
+   <input type="submit" value="Submit">
+  </form>
+    
+{% end %}
