@@ -1,0 +1,20 @@
+{% extends base.html %}
+
+{% block content %}
+
+<h2> {{ wodinfo['name'] }} </h2>
+
+{% include wod_details.html %}
+
+
+<div><a href="score">score this workout</a></div>
+<form>
+Comment as <em>user</em><br>
+<textarea name="comment" id="comment" cols="60" rows="10">
+</textarea><br>
+<input type="submit" value="Add Comment">
+</form>
+
+<div>comment on this workout</div>
+
+{% end %}
